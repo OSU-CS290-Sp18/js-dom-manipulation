@@ -60,6 +60,17 @@ a {
   margin: 5px;
 }
 
+.lorem-card {
+  flex: 1 32%;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: scroll;
+  background-color: #fff;
+  border: 5px solid #ccc;
+  padding: 50px;
+  margin: 5px;
+}
+
 .person-photo-img {
   max-height: 300px;
 }
