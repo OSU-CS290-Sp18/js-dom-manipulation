@@ -77,11 +77,3 @@ console.log("== loremCard.scrollTop:", loremCard.scrollTop);
 
 console.log("== window.scrollX:", window.scrollX);
 console.log("== window.scrollY:", window.scrollY);
-
-
-console.log("===============================");
-console.log("===============================");
-
-var userSuppliedValue = "<img src=x onerror=\"alert('Uh oh.')\">";
-// loremCard.innerHTML = userSuppliedValue;
-loremCard.textContent = userSuppliedValue;
